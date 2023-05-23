@@ -12,17 +12,18 @@
     <style>
         /* Custom CSS to make the navbar transparent */
         .navbar {
-          background-color: transparent !important;
+            background-color: transparent !important;
         }
-      </style>
+    </style>
+    <script src="https://kit.fontawesome.com/79bdbc1324.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="">
+<body class="container">
     <!-- header -->
     <header class=" modified-background bg-opacity-0">
         <nav class=" container navbar  navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid ">
-                <a class="navbar-brand fs-2 fw-bolder text-white" href="#">Go Bike</a>
+                <a class="navbar-brand fs-2 fw-bolder text-black" href="#">Go Bike</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -48,17 +49,147 @@
             </div>
         </nav>
 
-        <div class="container mt-5 p-5">
-            <h1 class="text-white fw-bolder fs-1">Keep Your Ride Safe At Every Time</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium molestiae odit maiores adipisci doloribus veritatis ea! Saepe dolore laboriosam blanditiis eius odio cumque fugiat excepturi officiis, a ut modi assumenda.</p>
-            <button class="btn btn-danger">Purchase</button>
+        <div id="carouselExample" class="carousel slide mt-5 p-5 bg-danger-subtle">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-sm-2 d-flex justify-content-center align-items-center ">
+                        <div class="col">
+                            <h1 class="fw-bolder">Ride-on R15 V4 with Smile</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt magnam fuga nemo
+                                repudiandae laborum cumque dicta libero. Pariatur nostrum dignissimos doloribus dolorem
+                                aliquid delectus deserunt ipsum at, laborum facilis laudantium!</p>
+                            <button class="btn btn-danger">Purchase</button>
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid w-100" src="images/bike-5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="row row-cols-1 row-cols-sm-2 d-flex justify-content-center align-items-center ">
+                        <div class="col">
+                            <h1 class="fw-bolder">Ride-on R15 V4 with Smile</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt magnam fuga nemo
+                                repudiandae laborum cumque dicta libero. Pariatur nostrum dignissimos doloribus dolorem
+                                aliquid delectus deserunt ipsum at, laborum facilis laudantium!</p>
+                            <button class="btn btn-danger">Purchase</button>
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid w-100" src="images/bike-6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="row row-cols-1 row-cols-sm-2 d-flex justify-content-center align-items-center ">
+                        <div class="col">
+                            <h1 class="fw-bolder">Ride-on R15 V4 with Smile</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt magnam fuga nemo
+                                repudiandae laborum cumque dicta libero. Pariatur nostrum dignissimos doloribus dolorem
+                                aliquid delectus deserunt ipsum at, laborum facilis laudantium!</p>
+                            <button class="btn btn-danger">Purchase</button>
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid w-100" src="images/bike-7.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark-subtle" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark-subtle" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-
     </header>
     <!-- main -->
 
     <main>
+        <section>
+            <h1 class="text-center fw-bolder fs-1 mt-5 p-5">Fetured Bikes In This Year</h1>
+            <div class="text-center">
+                <h2 class="text-danger">Best bike collection</h2>
+            <hr class="w-25 mx-auto border-danger mb-2">
+            </div>
+            <div class="img-fluid d-flex flex-column flex-sm-row align-items-center ">
+                <img  class="img-fluid" src="images/bike-5.png" alt="">
+                <img class="w-sm-75 img-fluid"src="images/bike-6.png" alt="">
+                <img  class="img-fluid"src="images/bike-7.png" alt="">
+            </div>
+        </section>
+        <section>
+            <h1 class="text-center fw-bolder fs-1 mt-5 p-5">Latest News</h1>
+            <div class="d-flex gap-4 flex-column flex-sm-row">
+                <div class="p-2 shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="images/bike-1.png" alt="" class="img-fluid">
+                    <h2></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sed dolorem repellendus, atque ad eum qui odio nobis deleniti maiores?</p>
+                    <button class="btn btn-warning">Read More</button>
+                </div>
+                <div class="p-2 shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="images/bike-2.png" alt="" class="img-fluid">
+                    <h2></h2>
+                    <p>Aperiam accusantium doloribus reprehenderit dolore sed dicta natus similique repudiandae corporis nihil animi perspiciatis, ullam, quod amet suscipit reiciendis perferendis?</p>
+                    <button class="btn btn-warning">Read More</button>
+                </div>
+                <div class="p-2 shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                    <img src="images/bike-3.png" alt="" class="img-fluid">
+                    <h2></h2>
+                    <p>Totam ut modi quis minus consectetur voluptatum. Quasi pariatur, rem provident ad cupiditate error. Odio vero consequatur neque dolore molestias.</p>
+                    <button class="btn btn-warning">Read More</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="fs-1 fw-bolder mt-5 mb-5 text-center">Happy <span class="text-danger">Clients says</span></h1>
+            <div class="">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/user-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <div class="">
 
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+        </section>
     </main>
 
     <!-- footer -->
